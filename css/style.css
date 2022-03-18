@@ -10,5 +10,29 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    
 
+}
+.banner-title{
+    margin: 150px 60px;
+    color: black;
+}
+.banner-title h1{
+    font-size: 64px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    line-height: 60px;
+    top: 20%;
+    right: 20%;
+    position: absolute;
+}
+.btn {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+       
 }

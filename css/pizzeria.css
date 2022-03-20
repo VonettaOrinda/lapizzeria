@@ -1,14 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
 body{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+    height: 300vh;
     justify-content: center;
-    background-image: url(../images/back.jpg);
+    align-items: center;
+    background-color: black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,8 +15,143 @@ body{
 
     text-align: center;
     height: 30vh;
-    width: 70%;
+    width: 100%;
     background-color: black;
     color: white;
 }
 
+.card-title{
+    text-align: center;
+    color: green;
+    font-weight: 800;
+}
+.controls-top h2{
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+    
+  
+.col-md-4{
+    border-radius: 10%;
+    padding: 10px;
+    float: left;
+    width: 33%;
+    position: relative;
+    align-items: baseline;
+    display: flex;
+
+}
+#menu{
+    padding-top: 30px;
+}
+
+}
+#ordersection{
+    text-align: center;
+}
+.jumbotron{
+   /*styling for both jumbotron elements*/
+    border-radius: 20px;
+}
+form{
+    padding-left: 13%;
+    padding-right: 13%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.form-control{
+   /*change color of inputs*/
+    color: rgb(17, 17, 17);
+}
+form label{
+    color: black;
+    font-size: 17px;
+}
+select{
+    display: block !important;
+}
+.form-check{
+    padding: 0;
+}
+
+.form-group small{
+    /*style small text in the form*/
+     margin-top: 0 !important;
+     margin-bottom: 8px;
+ }
+ .btn {
+    /* style all buttons */
+     color: #fff;
+     background-color: #FE5A07 !important;
+     border-radius: 9px;
+     padding: 9px;
+ }
+ #yourorder{
+     text-align: center;
+     display: none;
+     padding-bottom: 5%;
+ }
+ table .table-sm th{
+     text-align: center;
+ }
+ #text{
+     padding-top: 7%;
+     padding-bottom: 5%;
+     padding-left: 0;
+     padding-right: 0;
+ }
+ #deliveryOptions{
+     display: none;
+ }
+ #delivery{
+     display: none;
+     text-align: center;
+     padding: 3% 
+ }
+ #pickUpConfirmation, #deliveryConfirmation{
+     display: none;
+     text-align: center;
+ }
+ div.totalPick, div.name, div.location, div.totalDel, div.phone{
+    /*style how the divs display */
+     display: inline;
+     font-weight: bold;
+ }
+ #contactus{
+     width: 100%;
+     height: auto;
+     text-align: center;
+     color: white;
+     font-family: 'Lato', sans-serif;
+     background-image: url("/images/back.jpg");
+     background-size: cover;
+ }
+ #contactus img{
+     object-fit: cover;
+     height: auto;
+ }
+ #contactus .btn{
+     background: transparent !important;
+     color: white;
+     font-weight: bold;
+     padding: 1%;
+ }
+ h3{
+     padding-top: 3%;
+     font-size: 50px;
+     padding-bottom: 2%;
+ }
+ #message{
+     color: white;
+     background: transparent;
+ }
+
+
+
+   
+
+
+  

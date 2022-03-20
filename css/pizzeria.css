@@ -24,23 +24,3 @@ body{
     color: white;
 }
 
-#menu{
-    padding-right: 12%;
-    padding-left: 12%;
-    text-align: center;
-    position: relative;
-}
-.carousel-inner{
-    padding-bottom: 1%;
-}
-.carousel-multi-item .carousel-indicators li{
-   /*style carousel indicators*/
-    background-color: #FE5A07;
-    height: 1rem;
-    width: 1rem;
-}
-.carousel-multi-item .carousel-indicators .active{
-   /* style active carousel indicator*/
-    background-color: #FE5A07;
-    height: 1.25rem;
-    width: 1.25rem;

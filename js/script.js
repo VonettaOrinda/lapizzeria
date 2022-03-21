@@ -18,7 +18,7 @@ function capitalize_inputs(str) { //function to capitalize inputs
 
         var number = $("#pizza-number").val();
         var sizeCost; //set different prices for the different pizza flavors depending on their size
-        if (flavor === "Bbq Beef" || flavor === "Bbq Chicken" || flavor === "Hawaiian" || flavor === "Pulled Pork") {
+        if (flavor === "Bbq Beef" || flavor === "Pepperoni Pizza" || flavor === "Hawaiian" || flavor === "chicken pizza") {
             if (size === "Small") {
                 sizeCost = 400;
             } else if (size === "Medium") {
@@ -26,7 +26,7 @@ function capitalize_inputs(str) { //function to capitalize inputs
             } else if (size === "Large") {
                 sizeCost = 900;
             }
-        } else if (flavor === "Bbq Pork" || flavor === "Grilled Pork" || flavor === "Margharita" || flavor === "Marinara" || flavor === "Pepperoni") {
+        } else if (flavor === "chicken Pizza" || flavor === "Hawaian Pizza" || flavor === "Margharita" || flavor === "Pepperoni") {
             if (size === "Small") {
                 sizeCost = 450;
             } else if (size === "Medium") {

@@ -41,21 +41,20 @@ body{
     width: 33%;
     position: relative;
     align-items: baseline;
-    display: flex;
+    
+    text-align: center
 
 }
 #menu{
     padding-top: 30px;
 }
 
-}
+
 #ordersection{
     text-align: center;
 }
-.jumbotron{
-   /*styling for both jumbotron elements*/
-    border-radius: 20px;
-}
+
+
 form{
     padding-left: 13%;
     padding-right: 13%;
@@ -76,40 +75,46 @@ select{
 .form-check{
     padding: 0;
 }
+h5{
+    text-align: center;
+}
 
 .form-group small{
     /*style small text in the form*/
      margin-top: 0 !important;
      margin-bottom: 8px;
- }
- .btn {
+}
+.btn {
     /* style all buttons */
      color: #fff;
-     background-color: #FE5A07 !important;
+     background-color: #e72d2d !important;
      border-radius: 9px;
      padding: 9px;
- }
- #yourorder{
-     text-align: center;
-     display: none;
-     padding-bottom: 5%;
- }
- table .table-sm th{
-     text-align: center;
- }
- #text{
-     padding-top: 7%;
-     padding-bottom: 5%;
-     padding-left: 0;
-     padding-right: 0;
- }
- #deliveryOptions{
-     display: none;
- }
+    }
+#yourorder{
+    text-align: center;
+    display: none;
+    padding-bottom: 5%;
+}
+table .table-sm th{
+    text-align: center;
+}
+
+#text{
+    padding-top: 7%;
+    padding-bottom: 5%;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+#deliveryOptions{
+    display: none;
+}
+
  #delivery{
      display: none;
      text-align: center;
-     padding: 3% 
+     padding: 3%;
  }
  #pickUpConfirmation, #deliveryConfirmation{
      display: none;
@@ -120,15 +125,17 @@ select{
      display: inline;
      font-weight: bold;
  }
- #contactus{
-     width: 100%;
-     height: auto;
-     text-align: center;
-     color: white;
-     font-family: 'Lato', sans-serif;
-     background-image: url("/images/back.jpg");
-     background-size: cover;
- }
+#contactus{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    position: absolute;
+}
+     
  #contactus img{
      object-fit: cover;
      height: auto;
